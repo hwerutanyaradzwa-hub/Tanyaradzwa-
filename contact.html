@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>My Portfolio</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">☀️ Light</button>
+    </nav>
+</header>
+
+<section>
+    <h2>Contact Me</h2>
+
+    <form id="contact-form" action="mailto:hwerutanyaradzwa@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" value="Tanyaradzwa Hweru" required minlength="2">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" value="hwerutanyaradzwa@gmail.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your message here" required minlength="10" rows="6"></textarea>
+
+        <button type="submit" class="btn">Send</button>
+    </form>
+
+    <p>Email: <a href="mailto:hwerutanyaradzwa@gmail.com">hwerutanyaradzwa@gmail.com</a></p>
+
+    <h3>Connect with me</h3>
+    <p class="social-links">
+        <a href="https://github.com/hwerutanyaradzwa" target="_blank" rel="noopener">GitHub</a> •
+        <a href="https://www.linkedin.com/in/hwerutanyaradzwa" target="_blank" rel="noopener">LinkedIn</a> •
+        <a href="https://twitter.com/hwerutanyaradzwa" target="_blank" rel="noopener">Twitter</a>
+    </p>
+
+</section>
+
+<script src="js/theme.js"></script>
+</body>
+</html>

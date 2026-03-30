@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>My Portfolio</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">☀️ Light</button>
+    </nav>
+</header>
+
+<section class="projects">
+    <h2>My Projects</h2>
+
+    <div class="grid">
+        <div class="card project-card">
+            <img class="project-thumb" src="asset/project1.jpg" alt="Recipe Finder screenshot">
+            <h3>Recipe Finder 🌸</h3>
+            <p>A responsive web app to search recipes by ingredient. Shows images, ingredients and step-by-step instructions with friendly UI.</p>
+            <p class="muted"><strong>Tech:</strong> HTML, CSS, JavaScript, Edamam API</p>
+            <div class="project-actions">
+                <a class="btn" href="https://hwerutanyaradzwa.github.io/recipe-finder" target="_blank" rel="noopener">Live Demo</a>
+                <a class="btn secondary" href="https://github.com/hwerutanyaradzwa/recipe-finder" target="_blank" rel="noopener">GitHub</a>
+            </div>
+        </div>
+
+        <div class="card project-card">
+            <img class="project-thumb" src="asset/project2.jpg" alt="Portfolio Template screenshot">
+            <h3>Portfolio Template ✨</h3>
+            <p>Reusable portfolio template with sections for projects, about and contact — mobile-first, accessible and easy to customize.</p>
+            <p class="muted"><strong>Tech:</strong> HTML, CSS (Grid & Flexbox), Responsive Design</p>
+            <div class="project-actions">
+                <a class="btn" href="https://hwerutanyaradzwa.github.io/portfolio-template" target="_blank" rel="noopener">Live Demo</a>
+                <a class="btn secondary" href="https://github.com/hwerutanyaradzwa/portfolio-template" target="_blank" rel="noopener">GitHub</a>
+            </div>
+        </div>
+
+        <div class="card project-card">
+            <img class="project-thumb" src="asset/project3.jpg" alt="Todo Planner screenshot">
+            <h3>Todo Planner 💜</h3>
+            <p>A local-storage backed todo app with categories, edit and delete features and a playful, accessible UI to stay organized.</p>
+            <p class="muted"><strong>Tech:</strong> HTML, CSS, JavaScript (localStorage)</p>
+            <div class="project-actions">
+                <a class="btn" href="https://hwerutanyaradzwa.github.io/todo-planner" target="_blank" rel="noopener">Live Demo</a>
+                <a class="btn secondary" href="https://github.com/hwerutanyaradzwa/todo-planner" target="_blank" rel="noopener">GitHub</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="js/theme.js"></script>
+</body>
+</html>
